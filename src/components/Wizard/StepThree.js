@@ -31,9 +31,7 @@ export default class StepThree extends Component {
 
     addHouse = () => {
 
-        this.updateRedux()
-
-        const body = store.getState()
+        const body = {...store.getState(), ...this.state}
         
         axios.post('/api/houses', body)
         .then( () => {

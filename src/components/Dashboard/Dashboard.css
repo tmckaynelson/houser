@@ -1,0 +1,11 @@
+.dashboard {
+    width: 50%;
+    margin: auto;
+    background-color: #143021;
+    min-height: 94vh;
+    color: #ffffff;
+}
+
+body {
+    background-color: #234030;
+}
